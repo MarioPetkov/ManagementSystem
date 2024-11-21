@@ -68,6 +68,21 @@ A **Python-based desktop application** designed for business owners to streamlin
 
 ---
 
+### Database Setup
+
+To set up the database, follow these steps:
+
+1. Open your PostgreSQL client or connect via a terminal.
+2. Create a new database:
+   ```sql
+   CREATE DATABASE ManagementSystem;
+3. Run the create_db.sql script to create the tables:
+   ```bash
+   psql -U postgres -d managementsystem -f create_db.sql
+
+
+---
+
 ## Technologies Used
 - **Python: Backend logic and desktop interface.**
 - **Tkinter: User Interface.**
